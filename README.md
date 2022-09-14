@@ -1,4 +1,4 @@
-# Computer-Graphics-Project
+# Computer Graphics Project
 This project was implemented for the Computer Graphics module in the MSc in Computer Games Technology that I completed in 2020. Our task was to create 3D graphics scene taking place along a pre-programmed route, using OpenGL, C++ and GLSL with the Windows API and programming it in Visual Studio. 
 My approach to this concept was to build a racing game in an underwater environment. Specifically, the player controls a submarine which mission is to follow a given route picking up the largest number of chests displayed on it, in the shortest amount of time. The route consists on a natural water canal with rock walls and a sand bottom.
 
