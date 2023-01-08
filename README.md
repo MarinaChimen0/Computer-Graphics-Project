@@ -4,7 +4,7 @@ My approach to this concept was to build a racing game in an underwater environm
 
 ![Captura de pantalla 2021-01-27 214608](https://user-images.githubusercontent.com/113347414/211168477-dfd89dd6-97c4-465c-a6b0-ef0789bd8e4c.png)
 
-[See a video demonstration clicking here](https://youtu.be/8qckeDVc7BM)
+### [See a video demonstration clicking here](https://youtu.be/8qckeDVc7BM)
 
 The path is represented in the Game class (Game.h/Game.cpp) with the attribute m_pPath. In this class, the central line of the path is constructed in the CreateCentreline method by using a Catmull-Rom spline per each four control points. Defining splines in this way assures that they have C1 continuity, so the path conformed by them is not going to have any discontinuities and its derivatives are going to be continuous as well. To generate the path based on this centreline, two offset curves (one right and one left) are created around it in the CreateOffsetCurves method, computing a TNB frame per each centreline vertex. 
 
